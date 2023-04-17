@@ -1,0 +1,138 @@
+.signIn {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background: var(--pry-colour);
+    min-height: 100dvh;
+    width: 100%;
+}
+
+.signIn-white-bg {
+    background: url('/Images/Vector2.svg');
+    background-position: top;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 120dvh;
+}
+
+.signin-logo {
+    margin-top: 75px;
+    margin-bottom: 158px;
+}
+
+.signInImage {
+    width: 397.66px;
+    height: 398.49px;
+    margin-bottom: 88.8px;
+}
+
+.signInImg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.signInText {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    width: 388.8px;
+    height: 72px;
+    color: #151A7B;
+    text-align: center;
+    align-self: center;
+    margin-bottom: 108.2px;
+}
+
+.signIn-main-bg {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signin-title {
+    margin-top: 71px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 66px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 377.02px;
+    height: 132px;
+    margin-bottom: 66px;
+}
+
+.signinForm {
+    width: 488px;
+}
+
+.sign-in-email {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 57px;
+}
+
+.sign-in-password {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 27px; 
+}
+
+.signinForm label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+#email, #password {
+    height: 60px;
+    width: 100%;
+    background: #FCFDFE;
+    border: 1px solid #F0F1F7;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.signinForm input:focus {
+    outline: none;
+}
+
+.signinForm input::placeholder {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+    opacity: 0.4;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 66px;
+}
+
+#remember-me {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+.signinForm #remember-me-label {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-left: 12px;
+}

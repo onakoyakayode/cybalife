@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --pry-colour: #151A7B;
+  --main-font: 'Roboto', sans-serif;
+}
+
+.App {
+  font-weight: 400;
+  font-family: var(--main-font);
+  font-style: normal;
+  position: relative;
+}
+
+.app {
+  position: relative;
+}
+
+.container {
+  padding-inline: 100px;
+}
+
+button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}

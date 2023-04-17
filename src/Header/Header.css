@@ -1,0 +1,220 @@
+.header {
+    margin-top: 124px;
+}
+
+.header-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 5%;
+}
+
+.header-flex-1 {
+    width: 57%;
+}
+
+.header-title h1 {
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 134.19%;
+    color: #000000;
+    margin-bottom: 22px;
+}
+
+.header-title span,
+.header-title strong {
+    color: var(--pry-colour);
+}
+
+.header-flex-2 {
+    width: 38%;
+    position: relative;
+}
+
+.header-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 137.69%;
+    color: #000000;
+    margin-bottom: 20px;
+    width: 400px;
+}
+
+.header-text span {
+    color: var(--pry-colour);
+}
+
+.get-started {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    background: var(--pry-colour);
+    border: none;
+    width: 169px;
+    height: 52px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.partners {
+    margin-top: 100px;
+}
+
+.partners h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #151A7B;
+    margin-bottom: 24px;
+}
+
+.partners-logo {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    gap: 30px;
+}
+
+.partner-img {
+    width: 128px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.header-flex-2-1 {
+    width: 407.83px;
+    height: 536.12px;
+    background: url('/Images/header-img-bg.svg');
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+
+.header-img {
+    width:436px;
+    height:631px;
+    object-fit: cover;
+    position: absolute;
+    z-index: 10;
+    top: -8vh;
+    left: -20px;
+}
+
+.call-service {
+    width: 270px;
+    height: 64px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    position: absolute;
+    left: -34%;
+    top: 40vh;
+    z-index: 100;
+}
+
+.call-service-phone {
+    background: #E79A2C;
+    border-radius: 100px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone-icon {
+    color: #FFFFFF;
+    width: 32px;
+    height: 32px;
+}
+
+.call-service-text {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.header-flex-2-patients {
+    position: absolute;
+    width: 272px;
+    height: 148px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    top: 502px;
+    left: 212px;
+    z-index: 10;
+    padding: 24px 16px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-flex-2-patients-img {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.patient-img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 50%;
+} 
+
+.header-flex-2-patients-plus {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E79A2C;
+    color: #FFFFFF;
+}
+
+.header-flex-2-patients-count {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+.header-flex-2-patients-review {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.star-icon {
+    width: 12px !important;
+    height: 12px !important;
+    color: #E79A2C;
+    margin-right: 6px;
+}
+
+.header-flex-2-patients-review .rating,
+.header-flex-2-patients-review  .review {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #79747E;
+}
+
+.review {
+    margin-left: 6px;
+}
+

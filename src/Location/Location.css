@@ -1,0 +1,84 @@
+.location {
+    margin: 100px 0px 168.65px 0;
+    display: flex;
+    align-items: center;
+    margin-left: 84px;
+}
+
+.location-map {
+    height: 91px;
+    width: 188.65px;
+    border: 1px solid #000000;
+    border-radius: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 28.83px;
+    flex: 1;
+}
+
+.location-icon {
+    color: var(--pry-colour);
+    width: 24px !important;
+    height: 19.64px !important;
+    margin-right: 23.3px;
+}
+
+.location-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: var(--pry-colour);
+}
+
+.location-input {
+    flex: 5;
+    position: relative;
+} 
+
+.location-input input {
+    width: 100%;
+    height: 91px;
+    border-radius: 53px;
+    background: #F6F2F9;
+    border: none;
+    padding: 30px 40px;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.location-input input::placeholder:focus {
+    padding: 30px 40px;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+
+.location-input input::placeholder {
+    color: #000000;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.location-input input:focus {
+    outline: none;
+    color: #000000;
+}
+
+
+.location-submit {
+    position: absolute;
+    width: 122px;
+    height: 52px;
+    top: 20px;
+    left: 791px;
+    background: #151A7B;
+    border-radius: 100px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+}

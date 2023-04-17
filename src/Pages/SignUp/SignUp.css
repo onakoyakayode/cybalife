@@ -1,0 +1,210 @@
+.signup {
+    position: relative;
+    display: flex;
+    align-self: flex-start;
+    justify-content: space-between;
+    background: var(--pry-colour);
+    min-height: 100vh;
+    width: 100%;
+}
+
+.signup-main-bg {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup-title {
+    margin-top: 181px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 66px;
+    color: #FFFFFF;
+    margin-bottom: 49px;
+}
+
+.signup-white-bg {
+    background: url('/Images/signupWhiteBg.svg');
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+.signupForm {
+    width: 488px;
+}
+
+.email,
+.password {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 57px;
+}
+
+.signupForm label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.signupForm input {
+    height: 60px;
+    width: 100%;
+    background: #FCFDFE;
+    border: 1px solid #F0F1F7;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.signupForm input:focus {
+    outline: none;
+}
+
+.signupForm input::placeholder {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+    opacity: 0.4;
+}
+
+.signupBtn {
+    width: 100%;
+    height: 54px;
+    background: #E79A2C;
+    border-radius: 12px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 55px;
+}
+
+.sign-in-text {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #FFFFFF;
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.sign-in-text::after {
+    position: absolute;
+    content: "";
+    left: 110%;
+    top: 15px;
+    width: 110%;
+    border: 1px solid #FFFFFF;
+}
+
+.sign-in-text::before {
+    position: absolute;
+    content: "";
+    right: 110%;
+    top: 15px;
+    width: 110%;
+    border: 1px solid #FFFFFF;
+}
+
+.sign-in-social-media {
+    display: flex;
+    align-items: center;
+    margin-bottom: 57px;
+}
+
+.google-sign-in {
+    /* padding: 5px; */
+    border-radius: 100px;
+    background-color: #FFFFFF;
+    width: 40px;
+    height: 40px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-sign-in img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.facebook-sign-in {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.sign-in-link {
+    margin-bottom: 63px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #E7E0EC;
+}
+
+.to-sign-in {
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-left: 23px;
+}
+
+
+.signup-logo {
+    display: flex;
+    justify-content: flex-end;
+    width: 120px;
+    height: 72.65px;
+    margin-top: 75px;
+    margin-bottom: 211.35px;
+    margin-right: 100px;
+}
+
+.signupLogo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.signUpImage {
+    position: relative;
+    width: 547.99px;
+    height: 547.99px;
+    overflow: hidden;
+}
+
+.signupImg {
+    height: 547.99px;
+    width: 547.99px;
+    position: relative;
+    left: 40px;
+    overflow: hidden;
+    border-radius: 100px;
+}
+
+.signupBlueBg {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.signUpDoctorImg {
+    position: absolute;
+    left: 4%;
+    top: 120px;
+    width: 100%;
+    height: 427.85px;
+    border-radius: 0 0 100% 100%;
+}
+
